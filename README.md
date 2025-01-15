@@ -1,8 +1,7 @@
 # Lottery
 
-> 樂透 遊戲
-
-> For macOS
+- 樂透 遊戲
+- For macOS
 
 ## Rules
 1. Each bet numbers is six not repeating numbers, and range by 1~49.
@@ -16,9 +15,8 @@
     - player winning numbers
 
 ## Do before run
-- env：`$ python3 -m venv env`
-- run env：`$ . env/bin/activate`
-- install packing：`$ pip3 install -r requirements.txt`
+- env & install packing：`$ pipenv install`
+- run env：`$ pipenv shell`
 
 ## Run
 - run：`$ python3 main.py`
